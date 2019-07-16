@@ -10,6 +10,8 @@
 
     <packaging>pom</packaging>
 
-    <modules></modules>
+    <modules>
+        <module>service-discovery</module>
+    </modules>
 
 </project>
