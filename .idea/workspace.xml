@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="046d6938-b720-4c22-b47f-59775f4dc3a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-discovery/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-discovery/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/service-discovery/target/" />
+    <ignored path="$PROJECT_DIR$/data-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,14 +24,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-discovery/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="29" selection-start-column="29" selection-end-column="29" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/data-service/src/main/java/com/hens/practise/vehicleproject/dataservice/DataServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,8 +56,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/service-discovery/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/service-discovery/src/main/java/com/hens/practise/vehicleproject/uiservice/ServiceDiscoveryApplication.java" />
-        <option value="$PROJECT_DIR$/service-discovery/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/data-service/pom.xml" />
+        <option value="$PROJECT_DIR$/service-discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/data-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/data-service/src/main/java/com/hens/practise/vehicleproject/dataservice/DataServiceApplication.java" />
       </list>
     </option>
   </component>
@@ -79,6 +90,75 @@
             <path>
               <item name="connectedvehicleproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="connectedvehicleproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="connectedvehicleproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="connectedvehicleproject" type="462c0819:PsiDirectoryNode" />
+              <item name="data-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="connectedvehicleproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="connectedvehicleproject" type="462c0819:PsiDirectoryNode" />
+              <item name="data-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="connectedvehicleproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="connectedvehicleproject" type="462c0819:PsiDirectoryNode" />
+              <item name="data-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="connectedvehicleproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="connectedvehicleproject" type="462c0819:PsiDirectoryNode" />
+              <item name="data-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="connectedvehicleproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="connectedvehicleproject" type="462c0819:PsiDirectoryNode" />
+              <item name="data-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dataservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="connectedvehicleproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="connectedvehicleproject" type="462c0819:PsiDirectoryNode" />
+              <item name="data-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="connectedvehicleproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="connectedvehicleproject" type="462c0819:PsiDirectoryNode" />
+              <item name="service-discovery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="connectedvehicleproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="connectedvehicleproject" type="462c0819:PsiDirectoryNode" />
+              <item name="service-discovery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="connectedvehicleproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="connectedvehicleproject" type="462c0819:PsiDirectoryNode" />
+              <item name="service-discovery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="connectedvehicleproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="connectedvehicleproject" type="462c0819:PsiDirectoryNode" />
+              <item name="service-discovery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -153,24 +233,10 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service-discovery/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-discovery/src/main/java/com/hens/practise/vehicleproject/uiservice/ServiceDiscoveryApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-discovery/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -188,6 +254,44 @@
             <caret column="29" selection-start-column="29" selection-end-column="29" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-discovery/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="55" lean-forward="true" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-discovery/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-service/src/main/java/com/hens/practise/vehicleproject/dataservice/DataServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
