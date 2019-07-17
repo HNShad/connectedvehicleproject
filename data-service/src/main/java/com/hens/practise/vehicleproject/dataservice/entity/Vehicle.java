@@ -9,7 +9,7 @@ public class Vehicle {
 
     @Id
     @Column(name = "ID")
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     @Column(name = "VIN")
@@ -27,11 +27,20 @@ public class Vehicle {
     @Column(name = "STATUS")
     private String status;
 
-    protected Vehicle() {
+    public Vehicle() {
     }
 
-    public Vehicle(long id, String vin, String regnr, String customer, String address, String status) {
-        this.id = id;
+//    public Vehicle(long id, String vin, String regnr, String customer, String address, String status) {
+//        this.id = id;
+//        this.vin = vin;
+//        this.regnr = regnr;
+//        this.customer = customer;
+//        this.address = address;
+//        this.status = status;
+//    }
+
+    public Vehicle(String vin, String regnr, String customer, String address, String status) {
+
         this.vin = vin;
         this.regnr = regnr;
         this.customer = customer;

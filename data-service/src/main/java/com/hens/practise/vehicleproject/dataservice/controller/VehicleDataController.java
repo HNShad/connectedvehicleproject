@@ -29,18 +29,20 @@ public class VehicleDataController {
     @GetMapping("/customers")
     public ResponseEntity<List<Vehicle>> getAllVehiclesByCustomer(@RequestParam("customer") String name) {
 
-        return new ResponseEntity<>(vehicleRepository.findAllVehiclesByCustomer(name), HttpStatus.OK);
+        return new ResponseEntity<>(vehicleRepository.findByCustomer(name), HttpStatus.OK);
     }
 
     @GetMapping("/statuses")
     public ResponseEntity<List<Vehicle>> getAllVehiclesByStatus(@RequestParam("status") String status) {
 
-        return new ResponseEntity<>(vehicleRepository.findVehiclesByStatus(status), HttpStatus.OK);
+        return new ResponseEntity<>(vehicleRepository.findByStatus(status), HttpStatus.OK);
     }
 
     @GetMapping("/customers/all")
     public ResponseEntity<List<String>> getAllCustomers() {
 
-        return new ResponseEntity<>(vehicleRepository.findDistinctCustomer(), HttpStatus.OK);
+//        return new ResponseEntity<>(vehicleRepository.findDistinctCustomer(), HttpStatus.OK);
+
+        return new ResponseEntity<>(HttpStatus.OK);
     }
 }

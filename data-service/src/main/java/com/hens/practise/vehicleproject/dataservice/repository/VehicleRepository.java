@@ -8,9 +8,10 @@ import java.util.List;
 
 public interface VehicleRepository extends JpaRepository<Vehicle, Long> {
 
-    List<Vehicle> findAllVehiclesByCustomer(String customer);
-    List<Vehicle> findVehiclesByStatus(String status);
 
-    @Query("select distinct customer from vehicle")
-    List<String> findDistinctCustomer();
+    List<Vehicle> findByCustomer(String customer);
+    List<Vehicle> findByStatus(String status);
+
+//    @Query("select distinct customer from vehicle")
+//    List<String> findDistinctCustomer();
 }
