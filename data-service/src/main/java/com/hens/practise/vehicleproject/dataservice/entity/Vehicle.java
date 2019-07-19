@@ -1,5 +1,7 @@
 package com.hens.practise.vehicleproject.dataservice.entity;
 
+import lombok.Data;
+
 import javax.persistence.*;
 import java.util.Objects;
 
@@ -29,15 +31,6 @@ public class Vehicle {
 
     public Vehicle() {
     }
-
-//    public Vehicle(long id, String vin, String regnr, String customer, String address, String status) {
-//        this.id = id;
-//        this.vin = vin;
-//        this.regnr = regnr;
-//        this.customer = customer;
-//        this.address = address;
-//        this.status = status;
-//    }
 
     public Vehicle(String vin, String regnr, String customer, String address, String status) {
 
